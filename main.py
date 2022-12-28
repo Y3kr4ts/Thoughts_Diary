@@ -17,7 +17,7 @@ def talk(message):
 
 if __name__ == "__main__":
     talk(message="Hello Mike.. Nice to speak to you again, Would you like to make a Journal entry?")
-    user_input = input("Please Type Yes or No")
+    user_input = input("Please Type Yes or No: ")
     user_input = user_input.strip().lower()
 
     match user_input:
@@ -41,4 +41,3 @@ if __name__ == "__main__":
 
         case "no":
             talk("I hope everything is ok Mike? I'm always here if you want to talk. Have the most amazing day.")
-
